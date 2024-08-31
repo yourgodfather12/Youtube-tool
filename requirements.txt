@@ -1,0 +1,14 @@
+opencv-python
+mediapipe
+numpy
+transformers
+torch
+moviepy
+boto3
+unittest
+pandas
+scikit-learn
+matplotlib
+requests
+beautifulsoup4
+yaml

@@ -1,0 +1,5 @@
+version: 1.0
+settings:
+  frame_rate: 30
+  resolution: [1920, 1080]
+  bitrate: 8000k
