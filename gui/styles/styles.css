@@ -1,0 +1,77 @@
+QMainWindow {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+QLabel, QLineEdit, QPushButton, QTextEdit {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+QPushButton {
+    padding: 10px;
+    background-color: #3a3a3a;
+    border: 1px solid #555555;
+}
+
+QPushButton:hover {
+    background-color: #555555;
+}
+
+QSlider::groove:horizontal {
+    height: 6px;
+    background-color: #444444;
+}
+
+QSlider::handle:horizontal {
+    background-color: #888888;
+    width: 12px;
+    border-radius: 6px;
+}
+
+QListWidget {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+QStatusBar {
+    background-color: #2e2e2e;
+    color: #ffffff;
+}
+
+QProgressBar {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #555555;
+}
+
+QScrollBar:vertical {
+    background: #2e2e2e;
+    width: 12px;
+    margin: 22px 0 22px 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #555555;
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: #1e1e1e;
+    height: 20px;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
